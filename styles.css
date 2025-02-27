@@ -116,3 +116,33 @@ body {
     letter-spacing: 2px;
     color: rgb(63, 63, 63);
 }
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 18px 50px;
+    box-shadow: 0px 3px 5px rgb(173, 173, 173);
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: rgb(96, 138, 87);
+}
+button[type="submit"]:active {
+    background-color: rgb(109, 161, 97);
+}
+
+.login-message a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.login-message a:hover {
+    text-decoration: underline;
+}
+.login-message a:active {
+    color: rgb(109, 161, 97);
+}
