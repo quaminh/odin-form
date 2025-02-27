@@ -4,5 +4,65 @@
 }
 
 :root {
-    font-family: Norse-bold sans-serif;
+    --primary-color: #596D48;
+    --focus-color: blue;
+    --invalid-color: red;
+    --light-gray: #E5E7EB;
+    --pad: 24px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+.main-body {
+    background-color: rgb(248, 248, 248);
+}
+
+.sidebar {
+    background-image: url(./assets/bg-image.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.4);
+    padding: 12px;
+    width: 100%;
+}
+
+.sidebar a {
+    color: white;
+}
+
+.logo {
+    height: 8rem;
+}
+
+.logo-text {
+    font-family: Norse-bold, serif;
+    font-size: 6rem;
+}
+
+.description p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0px 12px 12px rgb(185, 185, 185);
+}
+
+.input-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
